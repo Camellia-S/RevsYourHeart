@@ -115,15 +115,17 @@
       "timeout": 30,
       "jar": "http://alist.xn--z7x900a.live/jar/pg.jar;md5;11be97a6cb52c128f32873d817b9feed"
     },
-    {
-      "key": "csp_77",
-      "name": "七七🥣观影",
-      "type": 3,
-      "api": "csp_Kunyu77",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
+   {
+      "key":"csp_Btwtoo",
+      "name":"鼻涕🐇观影",
+      "type":3,
+      "api":"csp_Bttwoo",
+      "jar": "https://download.kstore.space/download/2863/custom_spider.jar;md5;18b8df1e0f7813098c1e70979a264aad",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1
+      },
+
     {
       "key": "赞赞",
       "name": "赞赞➕观影",
