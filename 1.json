@@ -38,6 +38,22 @@
       },
       "ext": "./lib/PG推送.json"
     },
+	{
+      "key": "短剧",
+      "name": "短剧🐋观影",
+      "type": 3,
+      "api": "csp_Duanju",
+      "searchable": 0,
+      "changeable": 0
+    },
+	{
+      "key": "酷狗",
+      "name": "酷狗🐶音乐",
+      "type": 3,
+      "api": "csp_Kugou",
+      "searchable": 1,
+      "changeable": 0
+    },
      {
       "key": "alist",
       "name": "小鸭🍰网盘",
@@ -58,19 +74,30 @@
       }
     },
     {
-      "key": "csp_WoGG",
-      "name": "玩偶👽哥哥",
+      "key": "玩偶哥哥",
+      "name": "玩偶👽网盘",
       "type": 3,
       "api": "csp_Wogg",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 1,
+      "ext": "./lib/PG推送.json$$$https://api.wogg.xyz/$$$null$$$1",
+      "timeout": 60
+    },
+    {
+      "key": "玩偶表哥",
+      "name": "表哥🐷网盘",
+      "type": 3,
+      "api": "csp_Wobg",
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/TV/token.json$$$https://api.wogg.xyz/$$$1",
-      "timeout": 30
+      "ext": "./lib/PG推送.json$$$https://wobge.run.goorm.io$$$1",
+      "timeout": 60
     },
     {
       "key": "csp_Wobg",
-      "name": "玩偶💀表哥",
+      "name": "玩偶💀阿黑",
       "type": 3,
       "api": "csp_Wobg",
       "searchable": 1,
@@ -113,6 +140,16 @@
       "ext": "./lib/token.json$$$null$$$1"
     },
  {
+      "key": "团长影视",
+      "name": "团长🍡网盘",
+      "type": 3,
+      "api": "csp_TZFile",
+      "ext": "./lib/PG推送$$$null$$$1",
+      "quickSearch": 1,
+      "changeable": 0,
+      "timeout": 60
+    },
+ {
       "key": "Ppxzy",
       "name": "阿虾😛网盘",
       "type": 3,
@@ -120,8 +157,10 @@
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
-      "ext": "./lib/token.json$$$https://ppxzy.net/$$$null$$$1"
+      "ext": "./lib/PG推送.json$$$https://ppxzy.net/$$$null$$$1",
+      "timeout": 60
     },
+
     {
       "key": "渡鸦玩偶",
       "name": "渡鸦🎯网盘",
@@ -144,6 +183,23 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+	{
+      "key": "996影院",
+      "name": "久留🎀观影",
+      "type": 3,
+      "api": "csp_Cs1369",
+      "searchable": 1,
+      "changeable": 0
+    },
+{
+      "key": "NanGua",
+      "name": "南瓜🎃观影",
+      "type": 3,
+      "api": "csp_NanGua",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "null$$$1"
     },
      {
       "key": "爱看影视",
@@ -325,14 +381,13 @@
       "filterable": 1,
       "ext": "https://www.gsjtlxy.top/xgapp.php/v3/"
     },
-    {
-      "key": "⭕️蝴蝶",
+   {
+      "key": "蝴蝶",
       "name": "蝴蝶🦋观影",
       "type": 3,
-      "jar": "https://jihulab.com/zxjk/jk/-/raw/main/ym/fix.jar",
       "api": "csp_Hudie",
       "playerType": 2,
-      "ext": "https://yundun-hdsign.zhuifeng100.cn|kT2taP|75f7fac7f56d812d1f9ce89d9f312984|b7688bd6347da0b2b62515b0730b872b"
+      "ext": "https://yundun-hdsign.zhuifeng100.cn|kT2taP|75f7fac7f56d812d1f9ce89d9f312984|b7688bd6347da0b2b62515b0730b872b$$$null$$$1"
     },
        {
       "key": "996",
@@ -543,7 +598,14 @@
       },
       "ext": "./js/奇物.js"
     },
-  
+  {
+      "key": "嘶哩",
+      "name": "嘶哩🍺动漫",
+      "type": 3,
+      "api": "csp_Skapp",
+      "playerType": 2,
+      "ext": "wf7jTHTllmPx90cSfqYsxOFbNiEn/OOwcQMioXntTCgGo6loj/amsxwUNfJPF2W00I+ZJzSan7pD3OPqeGn1/3CaJLZhzh/OtQFo7cJf/AA/LRGchJ/NNsdu8c3HeY8X3ic+nAYiOFIT7HiLfqFnBom04dCSbujoxb0RoT6iYiZSArenzm5E5lEpGHD/KltmbDpcX9Lkxj+9HnF/okAhK8nsUmta/Jrnk40HP7cZodP3QGeLUpeoOCQZzw++LuS9iYZSentZVKL9q/puBZ78nhjx4fw94cM1SbG0rcAB9vwZr4z9YYNRythGAfNeOsMgRpAOnZH8K5JuWFoADNhHLMA==$$$null$$$1"
+    },
 {
       "key": "次元城",
       "name": "次元🎃漫画",
