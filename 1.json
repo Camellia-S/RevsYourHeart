@@ -10,7 +10,7 @@
 
 {        
 "key": "豆瓣",
-"name": "🎯 愿你看的每一部电影都能触及你的灵",
+"name": "🎯 愿你看的每一部电影都能触及你的灵魂",
 "type": 3,
 "api": "./lib/drpy2.min.js",
 "ext": "./js/豆瓣.js"
@@ -265,6 +265,7 @@
       "name": "多剧🏰观影",
       "type": 3,
       "api": "csp_XBPQ",
+      "jar": "./jar/xbpq.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -328,6 +329,7 @@
       "name": "老虎🐯观影",
       "type": 3,
       "api": "csp_XBPQ",
+      "jar": "./jar/xbpq.jar",
       "ext": "http://我不是.肥猫.live/json/虎虎.json"
     },
        {
@@ -345,6 +347,7 @@
       "name": "TVB🔘观影",
       "type": 3,
       "api": "csp_XBPQ",
+      "jar": "./jar/xbpq.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -355,6 +358,7 @@
       "name": "骚火🛎观影",
       "type": 3,
       "api": "csp_XBPQ",
+      "jar": "./jar/xbpq.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -365,6 +369,7 @@
       "name": "酒吧📖观影",
       "type": 3,
       "api": "csp_XBPQ",
+      "jar": "./jar/xbpq.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -388,18 +393,6 @@
       "api": "csp_Hudie",
       "playerType": 2,
       "ext": "https://yundun-hdsign.zhuifeng100.cn|kT2taP|75f7fac7f56d812d1f9ce89d9f312984|b7688bd6347da0b2b62515b0730b872b$$$null$$$1"
-    },
-       {
-      "key": "996",
-      "name": "九流🐯观影",
-      "type": 3,
-      "filterable": 1,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类url": "https://www.cs1369.com/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类": "电影$1#电视剧$2#爽文短剧$4#动漫$3",
-        "筛选": "1"
-      }
     },
       {
       "key": "随意",
@@ -443,6 +436,7 @@
       "name": "呜咽🍓观影",
       "type": 3,
       "api": "csp_XBPQ",
+      "jar": "./jar/xbpq.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -453,6 +447,7 @@
       "name": "吼吼🦇观影",
       "type": 3,
       "api": "csp_XBPQ",
+      "jar": "./jar/xbpq.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -560,13 +555,14 @@
         "主演": "主演：&&</div>",
         "简介": "<p>&&</p>"
       },
-      "jar": "./jar/6.jar"
+      "jar": "./jar/xbpq.jar"
     },
     {
       "key": "csp_XBPQ_miniju",
       "name": "迷剧🐳短剧",
       "type": 3,
       "api": "csp_XBPQ",
+      "jar": "./jar/xbpq.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
