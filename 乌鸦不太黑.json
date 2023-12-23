@@ -15,16 +15,6 @@
 "api": "./lib/drpy2.min.js",
 "ext": "./js/豆瓣.js"
  },
-  {
-      "key": "csp_KungFu404",
-      "name": "阿里🌩设置",
-      "type": 3,
-      "api": "csp_KungFu404",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 0,
-      "jar": "./jar/ali-X.jar"
-    },
     {
       "key": "配置中心",
       "name": "配置🌩中心",
