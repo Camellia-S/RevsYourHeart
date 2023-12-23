@@ -57,8 +57,19 @@
         ]
       }
     },
-    {
+	{
       "key": "玩偶哥哥",
+      "name": "玩偶🎯哥哥",
+      "type": 3,
+      "api": "csp_WoGG",
+      "jar": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;58adbd51a4bbed437f442e4e9a4c85c2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"
+    },
+    {
+      "key": "玩偶哥",
       "name": "玩偶🎯网盘",
       "type": 3,
       "api": "csp_Wogg",
