@@ -185,6 +185,37 @@
       "filterable": 1
     },
 	{
+      "key": "hx影视",
+      "name": "海星🌊观影",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/xbpq.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/海星.json"
+    },
+	 {
+      "key": "飞云",
+      "name": "飞云⛅观影",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/飞云.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+	 {
+      "key": "亮亮",
+      "name": "两两💬观影",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/两两.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+	{
       "key": "996影院",
       "name": "久留🎀观影",
       "type": 3,
@@ -411,17 +442,13 @@
       "playerType": 1,
       "api": "http://c.小胡.icu/api.php/provide/vod/"
     },
-    {
-      "key": "csp_Czsapp",
+   {
+      "key": "厂长",
       "name": "厂长🎭观影",
       "type": 3,
-      "api": "csp_Czsapp",
-      "jar": "./jar/XYQ.jar",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.czzy88.com"
+      "playerType": "2",
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/厂长.js"
     },
      {
       "key": "bdys",
@@ -532,30 +559,13 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./js/两个bt.js"
     },
-    
-    {
-      "key": "ok",
-      "name": "自由👻观影",
+   {
+      "key": "FREE1OK",
+      "name": "️️自由👻观影",
       "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类url": "https://www.freeok.vip/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;m",
-        "分类": "电影&剧集&动漫&综艺",
-        "搜索url": "https://www.cupfox.app/s/{wd}",
-        "分类值": "1&2&3&4",
-        "嗅探词": "m3u8#.m3u8#.mp4#mp4",
-        "搜索二次截取": "type=\"application/json\">&&</script>",
-        "搜索数组": "{\"te&&}[包含:freeok]",
-        "搜索图片": "https://s1.ax1x.com/2023/07/13/pChRQaD.jpg",
-        "搜索标题": "xt\":\"&&\"",
-        "搜索链接": "\"url\":\"&&\"",
-        "搜索副标题": "FREEOK",
-        "搜索模式": "1",
-        "导演": "导演：&&</div>",
-        "主演": "主演：&&</div>",
-        "简介": "<p>&&</p>"
-      },
-      "jar": "./jar/xbpq.jar"
+      "playerType": "1",
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/FreeOK.js"
     },
     {
       "key": "csp_XBPQ_miniju",
