@@ -574,8 +574,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "http://alist.xn--z7x900a.live/lib/PG推送.json",
-      "timeout": 30,
-      "jar": "http://alist.xn--z7x900a.live/jar/pg.jar;md5;11be97a6cb52c128f32873d817b9feed"
+      "timeout": 30
     },
     {
       "key": "csp_AliPS",
@@ -607,8 +606,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "http://alist.xn--z7x900a.live/lib/PG推送.json$$$satoken=1aee2366-2ff4-4436-b321-a14db23e8294",
-      "timeout": 30,
-      "jar": "http://alist.xn--z7x900a.live/jar/pg.jar;md5;11be97a6cb52c128f32873d817b9feed"
+      "timeout": 30
     },
       "key": "UpYun",
       "name": "云搜🎯网盘",
@@ -618,7 +616,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
-    },
+	 },
      {
       "key": "PanSearch",
       "name": "盘搜🎯网盘",
